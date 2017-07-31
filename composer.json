@@ -1,0 +1,13 @@
+{
+    "name": "wellservicesgroup/helpers",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ramon de Jonge",
+            "email": "rdejonge@wellservices-group.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
