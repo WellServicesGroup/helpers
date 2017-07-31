@@ -11,8 +11,8 @@
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
-        "files": [
-            "src/Translations.php"
-        ]
+        "psr-4": {
+            "WellServicesGroup\\Helpers\\":"src/"
+        }
     }
 }
