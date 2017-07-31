@@ -9,5 +9,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/*.php"
+        ]
+    },
 }
