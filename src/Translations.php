@@ -5,9 +5,18 @@ namespace WellServicesGroup\Helpers;
 class Translations
 {
 
-    public static function fooBee() {
-        var_dump('fooBee');
-        die();
+    /**
+     * Return a translated list of given list.
+     *
+     * @param $translationFile
+     * @param $list
+     * @return mixed
+     */
+    public static function translateList($list, $translationFile = 'general')
+    {
+        return array_map(function ($value) use ($translationFile) {
+            return trans($translationFile . '.' . $value);
+        }, $list);
     }
 
 }
